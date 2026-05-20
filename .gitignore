@@ -1,0 +1,36 @@
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+
+# Virtual environments
+.venv/
+venv/
+env/
+backend/**/.venv/
+backend/**/venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+.env
+.env.*
+backend/**/.env
+frontend/**/.env
+
+# Local runtime/output
+runtime/
+scratch/
+
+# OS / IDE
+.DS_Store
+.vscode/
