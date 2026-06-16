@@ -34,3 +34,7 @@ scratch/
 # OS / IDE
 .DS_Store
 .vscode/
+
+#data
+model/data_*.csv
+model/dataset.csv
